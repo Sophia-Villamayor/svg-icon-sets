@@ -4,8 +4,35 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+
+  font-family: 'Overpass', sans-serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #ff9500;
+  color: #fff;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6vmin;
+  padding: 6vmin;
+}
+
+header {
+  grid-column: 2;
+  display: grid;
+  justify-content: center;
+}
+
+figure {
+  grid-row: 2;
+  width: 32%;
 }
