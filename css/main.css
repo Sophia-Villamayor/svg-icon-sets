@@ -5,7 +5,7 @@ html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
 
-  font-family: 'Overpass', sans-serif;
+  font-family: Overpass, sans-serif;
   line-height: 1.5;
 }
 
@@ -19,11 +19,12 @@ body {
   color: #fff;
 }
 
-main {
+section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 6vmin;
   padding: 6vmin;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
 }
 
 header {
